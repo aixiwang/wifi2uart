@@ -5,7 +5,7 @@
 2. program init.lua to ModeMCU filesystem
 3. restart
 
-[2]How to change serial band rate
+[2]How to change serial band rate:<br>
 edit init.lua uart.setup directly
 
 
