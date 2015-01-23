@@ -1,3 +1,6 @@
+--------------------------
+-- Developed by Aixi Wang
+--------------------------
 wifi.setmode(wifi.SOFTAP);
 wifi.ap.config({ssid="wifi-iot-node-"..wifi.ap.getmac(),pwd="12345678"});
 --print("AP mdoe, IP is "..wifi.ap.getip())
